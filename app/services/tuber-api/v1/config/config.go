@@ -79,7 +79,7 @@ func New() (config, error) {
 
 	// Set Rabbitmq defaults.
 	vConfig.SetDefault("Rabbitmq.Host", "amqp://rabbitmq:rabbitmq@rabbitmq.tuber-system.svc.cluster.local:5672")
-	vConfig.SetDefault("Rabbitmq.DelayQueruName", "delay_queue")
+	vConfig.SetDefault("Rabbitmq.DelayQueueName", "delay_queue")
 	vConfig.SetDefault("Rabbitmq.DelayExchangeName", "delay_exchange")
 	vConfig.SetDefault("Rabbitmq.DelayRoutingKey", "delay_routing_key")
 
